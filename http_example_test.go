@@ -1,4 +1,4 @@
-// package jwt_test
+package jwt_test
 
 // // Example HTTP auth using asymmetric crypto/RSA keys
 // // This is based on a (now outdated) example at https://gist.github.com/cryptix/45c33ecf0ae54828e63b
@@ -7,8 +7,6 @@
 // 	"bytes"
 // 	"crypto/rsa"
 // 	"fmt"
-// 	"github.com/dgrijalva/jwt-go"
-// 	"github.com/dgrijalva/jwt-go/request"
 // 	"io"
 // 	"io/ioutil"
 // 	"log"
@@ -17,6 +15,9 @@
 // 	"net/url"
 // 	"strings"
 // 	"time"
+
+// 	"github.com/dgrijalva/jwt-go"
+// 	"github.com/dgrijalva/jwt-go/request"
 // )
 
 // // location of the files used for signing and verification
